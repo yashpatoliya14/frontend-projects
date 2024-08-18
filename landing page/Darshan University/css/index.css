@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+#row1{
+    position: absolute; 
+    width: 100%;
+    z-index: 2;
+    opacity: 0.8;;
+    
+}
+#row2{
+    z-index: 1;
+    position: relative;
+}
+@media screen and (max-width:600px) {
+    #row1{
+        background-color: white;
+    }
+}
+#row3{
+    margin: 0;
+    z-index: 2;
+    width: 100%;
+
+    
+}
+#row4{
+    position: relative;
+}
+
+.bg-img-1{
+    background-image: url(../images/sliderimg1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img-2{
+    background-image: url(../images/sliderimg4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img-3{
+    background-image: url(../images/sliderimg3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-image{
+    height: 100vh;
+}
+.navbar-nav li a:hover{
+    background-color: rgb(255, 41, 41);
+    transition: 0.5;
+}
+#menu1 a{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#menu1 a:hover{
+    text-decoration: none;
+    background-color: rgb(255, 41, 41);
+    transition: 0.5;
+}
+#row3 div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+} 
+#row3 div:hover{
+    opacity: 1;
+    background-color: red;
+}
+#placement div{
+    transition: 0.3s;
+}
+#placement div:hover{
+    transform: scale(1.05);
+    z-index: 1;
+    transition: 0.3s;
+    box-shadow: 20px 20px 20px 5px #0000;
+}
+
+#row8 div img{
+    border-radius: 10px;      
+}
+#row8 div img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
